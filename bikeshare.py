@@ -78,7 +78,7 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'None':
         # use the index of the months list to get the corresponding int
-        months = ['January', 'February', 'March', 'April', 'May', 'June']
+        months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
         month = months.index(month)+1
 
         # filter by month to create the new dataframe
